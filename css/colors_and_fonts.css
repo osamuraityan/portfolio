@@ -1,0 +1,85 @@
+body {
+    font-family: Optima, sans-serif;
+    background-color: green;
+}
+a:link {
+    color: #550;
+}
+a:visited {
+    color: #400
+}
+header {
+    text-align: center;
+    color:green;
+    background-color: #FFF;
+}
+header h1 {
+    color: #333;
+    font-size: 250%;
+}
+header h2 {
+    font-weight: normal;
+    font-style: meirio;
+}
+#sitenav {
+    color: white;
+    background-color: #333;
+}
+#sitenav ol {
+    font-size: 90%;
+    text-align: center;
+}
+#sitenav li {
+    border-left: 1px solid #333;
+}
+#sitenav li a {
+    color: white;
+}
+#sitenav li a:link, #sitenav li a:visited {
+    color: white; 
+    text-decoration: none;
+}
+#sitenav li a:hover {
+    color: #DDDD00;
+}
+#main {
+    background-color: blue;
+}
+.content {
+    background-color: white;
+}
+.content p {
+    font-size: 90%;
+    line-height: 1.4;
+}
+#sidebar h3 {
+    font-size: 100%;
+    color: #F0F00F;
+    font-weight: normal;
+    background-color: #444;
+}
+#sidebar ol {
+    background-color: white; 
+    border: 2px solid #444;
+    border-top: 0;
+}
+#sidebar li {
+    font-size: 85%;
+}
+#sidebar li a:link, #sidebar li a:visited {
+    text-decoration: none;
+    color: #550;
+}
+#sidebar li a:hover {
+    color: #444;
+}
+footer {
+    background-color: #444; 
+    color: white;
+}
+footer p {
+    font-size: 85%;
+}
+footer p a:link, footer p a:visited {
+    color: #DDDD00;
+}
