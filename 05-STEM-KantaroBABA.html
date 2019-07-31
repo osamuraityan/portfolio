@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+		
+		body{  background-color:#ccffcc;
+		}
+		</style>
+		
+	
+	</head>
+	<body>
+
+	<p>
+    background-color...
+    <input type="button" value="green color" onclick="changeBgColor('#008000');">
+    <input type="button" value="blue  color" onclick="changeBgColor('#0000ff');">
+    <input type="button" value="yellow color" onclick="changeBgColor('#ffff00');">
+    <input type="button" value="red color" onclick="changeBgColor('#ff0000');">
+    <input type="button" value="back to first background" onclick="changeBgColor('#ccffcc');">
+</p>
+
+<form name="myform">
+    <input name="mytext" type="text" />
+ 
+    <!-- make button -->
+    <button id="btn">submit</button>
+	<!-- change color for a moment -->
+  </form>
+
+ 
+  <script>
+  function changeBgColor( newColor ) {
+    document.body.style.backgroundColor = newColor;
+}
+  function changeBoxColor( newColor ) {
+    document.getElementById('body').style.backgroundColor = newColor;
+}
+    var btn = document.getElementById('btn');
+ 
+    btn.addEventListener('click', function() {
+	  document.body.style.backgroundColor = '#008000'; 
+// how to write                                avobe  // 
+  
+    })
+  </script>
+	</body>
+	</html>
